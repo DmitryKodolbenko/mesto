@@ -1,0 +1,8 @@
+.header__logo {
+  background-image: url(../../../vendor/header-logo.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 33px;
+}

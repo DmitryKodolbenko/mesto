@@ -1,0 +1,8 @@
+.profile__button {
+  background-image: url(../vendor/AddButton.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  margin-top: 35px;
+}
