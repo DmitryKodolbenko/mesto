@@ -1,8 +1,18 @@
 .profile__button {
-  background-image: url(../vendor/AddButton.png);
+  background-image: url(../../../vendor/AddButton.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 150px;
   height: 50px;
   margin-top: 35px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile__button {
+    background-image: url(../../../vendor/AddButton__Mobile.png);
+    width: 282px;
+    height: 50px;
+    margin: 0 auto 0;
+  }
 }

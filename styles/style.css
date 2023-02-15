@@ -1,78 +1,7 @@
-.elements {
-  max-width: calc(100% - 400px);
-  margin: 46.25px auto 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 17px;
-}
-
-.element {
-  border-radius: 10px;
-  background-color: white;
-  width: 282px;
-  height: 361px;
-  overflow: hidden;
 
 
-  display: flex;
-  flex-direction: column;
-}
-
-.element__photo {
-  width: 282px;
-  height: 282px;
 
 
-}
-
-.element__text {
-  margin: 25px auto 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 246px;
-  height: 23px;
-}
-
-.element__like {
-  background-image: url(../vendor/LikeButton.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 22px;
-  height: 19px;
-  margin-right: 5px;
-}
-
-.element__title {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0;
-  max-width: 200px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #000000;
-}
 
 
-.footer {
-  max-width: calc(100% - 400px);
-  margin: 66px auto 0;
-  display: flex;
-  flex-direction: row;
-}
 
-.footer__text {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-
-  color: #545454;
-}
