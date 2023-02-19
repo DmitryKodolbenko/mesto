@@ -5,8 +5,13 @@
   width: 150px;
   height: 50px;
   margin-top: 35px;
+  background-color: black;
+  border: none;
 }
 
+.profile__button:hover {
+  opacity: 0.8;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__button {
