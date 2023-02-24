@@ -1,95 +1,21 @@
-.popup {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .3);
-  top: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-
-.popup__form {
-  margin: 0 auto 0;
-  width: 33.59%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_switch/popup_switch_close);
+@import url(../blocks/popup/__form/popup__form );
+@import url(../blocks/popup/__title/popup__title);
+@import url(../blocks/popup/__input/popup__input);
+@import url(../blocks/popup/__input/_type/popup__input_type_name);
+@import url(../blocks/popup/__input/_type/popup__input_type_job);
+@import url(../blocks/popup/__line/popup__line);
+@import url(../blocks/popup/__save-button/popup__save-button);
+@import url(../blocks/popup/__close-icon/popup__close-icon);
 
 
 
-}
 
 
-.popup__title {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #000000;
-  width: 83.25%;
-
-  margin: 34px auto 0;
-
-}
-
-.popup__input {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #000000;
-
-  width: 83.25%;
-  border: none;
-}
-
-.popup__input_type_name {
-  margin: 54px auto 0;
-}
-
-.popup__input_type_job {
-  margin: 30px auto 0;
-}
 
 
-.popup__line {
-  width: 83.25%;
-  height: 0;
-  border: 1px solid #000000;
-  margin: 13px auto 0;
-}
 
-.popup__input::placeholder {
-  color: #d3d3d3;
-}
 
-.popup__save-button {
-  width: 83.25%;
-  height: 50px;
-  margin: 48px auto 37px;
-  background-color: #000000;
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
 
-  color: #FFFFFF;
-}
-
-.popup__close-icon {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-
-}

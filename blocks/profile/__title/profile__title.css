@@ -5,6 +5,11 @@
   line-height: 48px;
   margin: 0;
   white-space: nowrap;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 294px;
 }
 
 

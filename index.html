@@ -36,7 +36,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo1.jpg" alt="" class="element__photo">
+          <img src="./images/photo1.jpg" alt="Карачаевск фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Карачаевск</p>
@@ -46,7 +46,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo2.png" alt="" class="element__photo">
+          <img src="./images/photo2.png" alt="Гора Эльбрус фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Гора Эльбрус</p>
@@ -56,7 +56,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo3.png" alt="" class="element__photo">
+          <img src="./images/photo3.png" alt="Домбай фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Домбай</p>
@@ -66,7 +66,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo4.png" alt="" class="element__photo">
+          <img src="./images/photo4.png" alt="Гора Эльбрус фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Гора Эльбрус</p>
@@ -76,7 +76,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo5.png" alt="" class="element__photo">
+          <img src="./images/photo5.png" alt="Домбай фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Домбай</p>
@@ -86,7 +86,7 @@
 
       <div class="element">
 
-          <img src="./vendor/photo6.png" alt="" class="element__photo">
+          <img src="./images/photo6.png" alt="Карачаево-Черкесск фото" class="element__photo">
 
         <div class="element__text">
           <p class="element__title">Карачаево-Черкесск</p>
@@ -101,21 +101,23 @@
     </footer>
   </main>
 
-  <div class="popup">
-    <div class="popup__form">
+  <div class="popup popup_switch_close">
+    <form class="popup__form">
       <p2 class="popup__title">Редактировать профиль</p2>
 
 
-      <input type="text" placeholder="Имя и Фамилия" class="popup__input popup__input_type_name">
+      <input type="text" placeholder="Имя" class="popup__input popup__input_type_name">
       <div class="popup__line"></div>
 
-      <input type="text" placeholder="Род деятельности" class="popup__input popup__input_type_job">
+      <input type="text" placeholder="О себе" class="popup__input popup__input_type_job">
       <div class="popup__line"></div>
 
-      <button class="popup__save-button">Сохранить</button>
+      <button type="submit" class="popup__save-button">Сохранить</button>
 
-    </div>
-    <div class="popup__close-icon"></div>
+      <button type="click" class="popup__close-icon"></button>
+
+    </form>
+
   </div>
 
   <script src="./index.js"></script>
