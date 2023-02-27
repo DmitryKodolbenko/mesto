@@ -1,4 +1,4 @@
-.popup_switch_open {
+.popup_opened {
   display: flex;
   flex-direction: column;
   justify-content: center;
