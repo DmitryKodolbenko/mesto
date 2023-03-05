@@ -7,5 +7,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__items {
     gap: 10px;
+    margin: 0 auto 0;
   }
 }

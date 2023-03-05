@@ -1,6 +1,6 @@
 .footer {
-  max-width: calc(100% - 400px);
-  margin: 66px auto 0;
+  max-width: 880px;
+  margin: 66px auto 60px;
   display: flex;
   flex-direction: row;
 }
@@ -26,8 +26,3 @@
   }
 }
 
-@media screen and (min-width: 1280px){
-  .footer {
-    max-width: 880px;
-  }
-}

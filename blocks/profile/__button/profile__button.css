@@ -6,11 +6,14 @@
   width: 150px;
   height: 50px;
   margin-top: 35px;
+  margin-left: 20px;
   background-color: transparent;
 
   border: 2px solid #FFFFFF;
   border-radius: 2px;
   cursor: pointer;
+
+
 }
 
 .profile__button:hover {
