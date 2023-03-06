@@ -17,8 +17,8 @@ function popupOpen() {
   jobInput.value = subtitle.textContent;
 }
 
-editButton.addEventListener('button', popupOpen);
-popupCloseButton.addEventListener('button', popupClose);
+editButton.addEventListener('click', popupOpen);
+popupCloseButton.addEventListener('click', popupClose);
 
 
 // save button
